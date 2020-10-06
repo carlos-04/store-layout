@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <title>Tienda hecha con bootstrap</title>
+</head>
+
+<body data-spy="scroll" data-target="#main-navbar">
+
+    <!--Section header-->
+    <section class="section-header">
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top  p-3">
+            <div class="container">
+                <h1 class="logo"><i class="far fa-futbol"></i></h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Producto</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Cuenta</a>
+                        </li>
+                    </ul>
+                    <img src="images/carrito.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <br> <br> <br><br> <br> <br>
+        <div class="container">
+            <div class="row d-flex justify-content-center  align-items-center">
+                <div class="col-sm-6 text-white eslogan text-center">
+                    <h1 class="">¡Dale a tu entrenamiento un nuevo estilo!</h1>
+                    <p>La diferencia de lo imposible depende de la voluntad de un hombre.</p>
+                    <button class="btn btn-primary">Explorar ahora</button>
+                </div>
+                <div class="col-sm-6">
+                    <img src="images/image1.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section categoria-->
+    <section class="section-categoria mt-5">
+
+        <div class="container">
+            <h2 class="text-center titulo">Categorías</h2>
+
+            <div class="row mt-5 ">
+                <div class="col-xl-4  ">
+
+                    <div class="text-center imagen-c">
+                        <img src="images/category-1.jpg" class="img-fluid shadow" alt="..." width="250px" height="250px">
+                        <h5 class="mt-3">Pantalon</h5>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+
+                    <div class="text-center">
+                        <img src="images/category-2.jpg" class="img-fluid shadow" alt="..." width="250px" height="250px">
+                        <h5 class="mt-3">Tennis</h5>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-sm-12">
+
+                    <div class="text-center">
+                        <img src="images/category-3.jpg" class="img-fluid shadow" alt="..." width="250px" height="250px">
+                        <h5 class="mt-3">Mujeres</h5>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--Productos Destacados-->
+    <section class="Productos-destacados mt-5">
+        <div class="container">
+            <h2 class="text-center titulo">Productos Destacados</h2>
+
+            <div class="row mt-5">
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  ">
+                        <img src="images/product-9.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  ">
+                        <img src="images/product-10.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  ">
+                        <img src="images/product-11.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  ">
+                        <img src="images/product-12.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Ultimos Productos-->
+    <!--Productos Destacados-->
+    <section class="Productos-destacados mt-5">
+        <div class="container">
+            <h2 class="text-center titulo">Ultimos Productos</h2>
+
+            <div class="row mt-5">
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  m-2">
+                        <img src="images/product-1.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  m-2">
+                        <img src="images/product-2.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  m-2">
+                        <img src="images/product-3.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  m-2">
+                        <img src="images/product-4.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  mt-4">
+                        <img src="images/product-5.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card  mt-4 ">
+                        <img src="images/product-6.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12">
+                    <div class="card mt-4 ">
+                        <img src="images/product-7.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 ">
+                    <div class="card  mt-4">
+                        <img src="images/product-8.jpg" class="img-fluid " alt="...">
+
+                        <div class="card-body ">
+                            <h5 class="card-title text-center text-secondary">Zapatos</h5>
+                            <h5 class="precio text-center text-success">RD$15,000</h5>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="botones d-flex justify-content-center botones mt-3">
+                                <button class="favorito btn btn-outline-danger  rounded-circle ml-2"><i class="fas fa-heart"></i></button>
+                                <button class="add btn btn-outline-primary ml-2 carrito"><i class="fas fa-shopping-cart"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Seccion oferta-->
+    <section class="ofertas">
+        <div class="container">
+            <div class="row ">
+                <div class="col">
+                    <div class="contenido d-flex flex-column align-items-center">
+                        <h1 class="text-center">Ven y aprovecha nuestras ofertas</h1>
+                        <button class="btn  btn-primary mt-4 p-3"><b> Haz click Aqui</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-testimonios">
+        <div class="container">
+            <h2 class="text-center titulo">Testimonios</h2>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-white shadow">
+                        <div class="card-body d-flex align-content-center align-items-center flex-column  p-4">
+                            <i class="fa fa-quote-left"></i>
+                            <p class="text-center"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugit ipsa aliquam facilis voluptates fuga quia optio dolor hic eius atque deleniti id possimus laborum.</b></p>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="datos d-flex flex-column align-items-center align-content-center mt-2">
+                                <img src="images/user-1.png" alt="" width="50px" height="50px" class="rounded-circle" class="mt-2">
+                                <h3 class="mt-2">Sean Parker</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-white shadow">
+                        <div class="card-body d-flex align-content-center align-items-center flex-column  p-4">
+                            <i class="fa fa-quote-left"></i>
+                            <p class="text-center"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugit ipsa aliquam facilis voluptates fuga quia optio dolor hic eius atque deleniti id possimus laborum.</b></p>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="datos d-flex flex-column align-items-center align-content-center mt-2">
+                                <img src="images/user-1.png" alt="" width="50px" height="50px" class="rounded-circle" class="mt-2">
+                                <h3 class="mt-2">Sean Parker</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-white shadow">
+                        <div class="card-body d-flex align-content-center align-items-center flex-column  p-4">
+                            <i class="fa fa-quote-left"></i>
+                            <p class="text-center"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugit ipsa aliquam facilis voluptates fuga quia optio dolor hic eius atque deleniti id possimus laborum.</b></p>
+                            <div class="raiting  justify-content-center d-flex ">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                            <div class="datos d-flex flex-column align-items-center align-content-center mt-2">
+                                <img src="images/user-1.png" alt="" width="50px" height="50px" class="rounded-circle" class="mt-2">
+                                <h3 class="mt-2">Sean Parker</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--Section aportes-->
+    <section class="section-aportes">
+
+        <div class="container">
+            <h2 class="text-center titulo">Afiliados</h2>
+
+
+
+
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-sm-2">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-12 col-sm-2">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+
+                <div class="col-12 col-sm-2">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+                <div class="col-12 col-sm-2">
+                    <img src="images/logo-philips.png" alt="">
+                </div>
+                <div class="col-12 col-sm-2">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <!-- <div class="col-3 d-flex align-content-center align-items-center">
+                    <img src="images/popular.png" alt="" class="img-fluid" width="180px" height="90px">
+                </div> -->
+                <!-- <div class="col-4 d-flex align-content-center align-items-center">
+                    <img src="images/ademy.png" alt="" class="img-fluid" width="180px" height="90px">
+                </div> -->
+
+            </div>
+        </div>
+    </section>
+
+    <!--section Footer-->
+    <section class="section-footer mt-5">
+        <!-- Footer -->
+        <footer class="page-footer font-small blue">
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 text-white"><b> © 2020 Copyright: Carlos Montero</b>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </section>
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-header {
+    width: 100%;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(198, 39%, 28%, 0.462), hsla(195, 35%, 19%, 0.415), hsla(198, 44%, 11%, 0.367));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(198, 39%, 28%, 0.449), hsla(195, 35%, 19%, 0.421), hsla(198, 44%, 11%, 0.381)), url(../images/cancha.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    background: #48ade0 !important;
+    box-shadow: #48ADE0;
+    transition: all 0.2s;
+}
+
+
+/* nav {
+    padding: 15px;
+} */
+
+nav .navbar-collapse ul li {
+    margin-right: 25px;
+}
+
+nav .navbar-collapse ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+/* 
+.navbar-toggler .navbar-toggler-icon {
+    color: #fff;
+    background-color: #fff;
+} */
+
+nav .navbar-collapse ul li a:hover {
+    color: #48ade0;
+}
+
+.logo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.eslogan {
+    margin-top: 50px;
+}
+
+.eslogan h1,
+.ofertas h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.ofertas h1 {
+    opacity: 0.8;
+    font-size: 50px;
+}
+
+.ofertas .btn {
+    opacity: 0.8;
+    border-radius: 40px;
+}
+
+.ofertas {
+    margin: 100px 0;
+}
+
+.eslogan p {
+    font-size: 20px;
+}
+
+
+/*Categorias*/
+
+.titulo {
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    color: #555;
+}
+
+.section-categoria .row .col-xl-4 img {
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.section-categoria .row .col-xl-4 img:hover {
+    filter: grayscale(0);
+}
+
+.section-categoria h5 {
+    font-family: Poppins, sans-serif;
+    color: #555;
+}
+
+
+/*Productos Destacados*/
+
+.Productos-destacados .card {
+    border: none;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.Productos-destacados .card:hover {
+    transform: translateY(-20px);
+}
+
+.card .botones .carrito {
+    border-radius: 30px;
+    /* padding: 10px; */
+}
+
+.raiting i {
+    color: #FFC73B;
+}
+
+
+/*Ultimos Productos*/
+
+.ofertas {
+    /* background-color: #01a9b4;
+    margin-top: 80px;
+    padding: 30px 0; */
+    /* margin: auto; */
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, hsla(198, 39%, 28%, 0.442), hsla(194, 35%, 19%, 0.435), #0F2027);
+    background: linear-gradient(to right, hsla(198, 39%, 28%, 0.442), hsla(195, 35%, 19%, 0.447), hsla(198, 44%, 11%, 0.449)), url(../images/Banner-2i7c_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* object-fit: cover; */
+    /* min-height: 60vh; */
+    padding: 200px 0;
+    width: 100%;
+}
+
+.section-categoria,
+.Productos-destacados,
+.section-testimonios,
+.section-aportes {
+    margin: 100px 0;
+}
+
+.titulo {
+    padding: 50px 0;
+    text-align: center;
+    margin: 0 auto 80px;
+    color: #555;
+    position: relative;
+    line-height: 20px;
+}
+
+.titulo::after {
+    content: '';
+    background-color: #01A9B4;
+    width: 120px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/*Section Testimonios*/
+
+.section-testimonios p {
+    font-size: 14px;
+    margin: 12px 0;
+    font-weight: 400;
+    color: #555;
+}
+
+.section-testimonios h3 {
+    color: #555;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+.fa-quote-left {
+    color: #48ADE0;
+    font-size: 30px;
+}
+
+
+/*seccion afiliados*/
+
+.section-aportes img {
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.section-aportes img:hover {
+    filter: grayscale(0);
+}
+
+.section-footer {
+    color: #fff;
+}
+
+footer {
+    background-color: #48ADE0;
+}
+
+
+/*Media Querys*/
+
+@media(min-width: 992px) {
+    /*navbar*/
+    .navbar {
+        background-color: transparent !important;
+    }
+    .background-scroll-down {
+        background-color: #48ADE0 !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .eslogan h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .eslogan p {
+        font-size: 15px;
+    }
+    /* .eslogan {
+        margin-top: 110px;
+    } */
+}
+
+
+/* @media(min-width: 768px) {
+    .section-header {
+        min-height: 60vh;
+    }
+} */
